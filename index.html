@@ -24,15 +24,17 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-sky w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Vimbs Plumbing & Projects<br></b></h3>
+    <div><img src="src/logo.jpg" alt="Description of the image" width="230" style="border-radius: 120px"> <br><br></div>
+    <!-- <h3 class="w3-padding-64" ><b>Vimbs Plumbing & Projects<br></b></h3> -->
+    
   </div>
   <div class="w3-bar-block">
     <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
-    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
-    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us</a> 
+    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Gallery</a> 
+    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a>
   </div>
 </nav>
 
@@ -50,8 +52,8 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b> Plumbing <br>and <br> maintenance services </b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Offers</b></h1>
+    <div id="profile" style="background-color:#777; color:#fff;"><h3 class="w3-jumbo"><b> Plumbing services </b></h3></div>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Let's fix</b></h1>
     <hr style="width:50px;border:5px solid #092c41" class="w3-round">
   </div>
   
@@ -87,52 +89,51 @@ body {font-size:16px;}
   
  
   <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Services</b></h1>
-    <hr style="width:50px;border:5px solid lch(50.78% 95.3 38.12)" class="w3-round">
-    <p>We offer a wide range of services for both residential and commercial properties. 
-      These typically cover repairs, installations, maintenance, and emergencies. 
-      Here's a breakdown of our plumbing services:</p>
-   </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Repair Services</li>
-        <li class="w3-padding-16">Leak detection and repair</li>
-        <li class="w3-padding-16">Drain cleaning and unclogging</li>
-        <li class="w3-padding-16">Toilet repair and replacement</li>
-        <li class="w3-padding-16">Faucet and sink repair/installation</li>
-        <li class="w3-padding-16">Pipe repair and repiping</li>
-        <li class="w3-padding-16">
-          <span class="w3-opacity">Need one of the services? Select from the drop down menu below to book.</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Choose</button>
-        </li>
-      </ul>
+    <div class="w3-container" id="packages" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Services</b></h1>
+      <hr style="width:50px;border:5px solid lch(50.78% 95.3 38.12)" class="w3-round">
+      <p>We offer a wide range of services for both residential and commercial properties. 
+        These typically cover repairs, installations, maintenance, and emergencies. 
+        Here's a breakdown of our plumbing services:</p>
     </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Other Services</li>
-        <li class="w3-padding-16">Water heater repair, maintenance, and installation</li>
-        <li class="w3-padding-16">Low water pressure fixes</li>
-        <li class="w3-padding-16">Fixture installation</li>
-        <li class="w3-padding-16">Whole-home or commercial plumbing installations</li>
-        <li class="w3-padding-16">24/7 emergency plumbing</li>
-        <li class="w3-padding-16">
-         
-          <span class="w3-opacity">Need one of the services? Press the "Request" button below to book.</span>
-        </span>
-        </li>
-           <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Request</button>
-        </li>
-      </ul>
+ 
+    <div class="w3-row-padding">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Repair Services</li>
+          <li class="w3-padding-16">Leak detection and repair</li>
+          <li class="w3-padding-16">Drain cleaning and unclogging</li>
+          <li class="w3-padding-16">Toilet repair and replacement</li>
+          <li class="w3-padding-16">Faucet and sink repair/installation</li>
+          <li class="w3-padding-16">Pipe repair and repiping</li>
+          <li class="w3-padding-16">
+            <span class="w3-opacity">Need one of the services? Select from the drop down menu below to book.</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-red w3-padding-large w3-hover-black">Choose</button>
+          </li>
+        </ul>
+      </div>
+          
+      <div class="w3-half">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-red w3-xlarge w3-padding-32">Other Services</li>
+          <li class="w3-padding-16">Water heater repair, maintenance, and installation</li>
+          <li class="w3-padding-16">Low water pressure fixes</li>
+          <li class="w3-padding-16">Fixture installation</li>
+          <li class="w3-padding-16">Whole-home or commercial plumbing installations</li>
+          <li class="w3-padding-16">24/7 emergency plumbing</li>
+          <li class="w3-padding-16">
+          
+            <span class="w3-opacity">Need one of the services? Press the "Request" button below to book.</span>
+          </span>
+          </li>
+            <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Request</button>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-  
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
@@ -169,16 +170,16 @@ body {font-size:16px;}
       <div class="w3-light-grey">
         <img src="./src/vpp.png" alt="Mandla" style="width:100%">
         <div class="w3-container">
-          <h3>Mr Mandla Metane</h3>
+          <h3>Mr MP Metane</h3>
           <p class="w3-opacity">CEO &amp; Founder</p>
           <p></div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="./src/team2.jpg" alt="Jane" style="width:100%">
+        <img src="./src/vimbs_pa.jpg" alt="Nokuthula" style="width:100%;"">
         <div class="w3-container">
-          <h3>Ms Nokuthula Mahlangu </h3>
+          <h3>Ms NM Mahlangu </h3>
           <p class="w3-opacity">Personal Assistant</p>
           <p></p>
 
